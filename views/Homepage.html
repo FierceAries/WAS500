@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #111;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04A;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(29, 39, 95, 0.404);
+  color: white;
+}
+</style>
+</head>
+<body>
+
+    <ul>
+        <li><a class="active" href="#home">Homepage</a></li>
+        <li><a href="#news">Book list page</a></li>
+        <li><a href="#contact">Book details</a></li>
+        <li><a href="#contactus">Contact us</a></li>
+        <li><a href="#Survey">Survey</a></li>
+      </ul>
+      
